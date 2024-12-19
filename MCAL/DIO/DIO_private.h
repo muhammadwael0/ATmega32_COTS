@@ -28,5 +28,7 @@
 #define PORTD  *((volatile u8 *) 0x32)
 #define PIND   *((volatile u8 *) 0x30)
 
+/* Special Function I/O */
+#define SFIO   *((volatile u8 *) 0x50)
 
 #endif
